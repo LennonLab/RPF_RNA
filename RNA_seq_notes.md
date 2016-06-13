@@ -8,7 +8,7 @@
 
 - 3) Gene annotation (.gtf)
 
-### steps
+### Steps
 
 **1)** Quality control
 
@@ -28,8 +28,26 @@
 
 - SAMTools
 
+**5)** Expression
 
+- Cufflinks and Cuffdiff
+
+**6)** Differential expression
+
+- Cufflinks and Cuffdiff
+
+**7) Visualization / data manipulation**
+
+- CummeRbund (R package)
 
 ### References
 
-https://github.com/griffithlab/rnaseq_tutorial/wiki/Alignment
+- https://github.com/griffithlab/rnaseq_tutorial/wiki/Alignment
+
+- http://www.sciencedirect.com/science/article/pii/S1369527414001787
+
+- http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-13-734
+
+- http://www.rna-seqblog.com/bacterial-transcriptomics/
+
+- (Not for this project, but potentially useful for the future) https://github.com/hopkinsmarinestation/Population-Genomics-via-RNAseq
